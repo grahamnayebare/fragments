@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <fragment
+        android:layout_width="330dp"
+        android:layout_height="306dp"
+        android:name="com.grahaml.ham.myPic"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_my_pic" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.grahaml.ham.describPics"
+        android:id="@+id/fragment3"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_describ_pics" />
+</LinearLayout>

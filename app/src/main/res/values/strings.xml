@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ham</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="anytext">this is Grahm.
+    this app use fragments,menus and other views which i do practice in android
+    programing, if any information plse pass it on to me</string>
+</resources>
